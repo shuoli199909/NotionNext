@@ -157,44 +157,23 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: 'By Myself',
-      artist: 'Linkin Park',
-      url: 'http://music.163.com/song/media/outer/url?id=ID16686536.mp3',
+      name: 'Wehmut',
+      artist: 'Empyrium',
+      url: 'https://music.163.com/song/media/outer/url?id=29537405.mp3',
       cover:
-        'http://p1.music.126.net/n8TRO4yq18GXKl-90j4NmA==/109951167820940527.jpg?param=130y130'
-    },
-    {
-      name: '魂縈舊夢',
-      artist: '白光',
-      url: 'http://music.163.com/song/media/outer/url?id=ID1807812600.mp3',
-      cover:
-        'http://p2.music.126.net/FxlTMmeeuDsIcKpdugg8OA==/109951165585791099.jpg?param=130y130'
-    },
-    {
-      name: 'Oh No, Oh Yes!',
-      artist: '中森明菜',
-      url: 'http://music.163.com/song/media/outer/url?id=ID22663877.mp3',
-      cover:
-        'http://p2.music.126.net/hKBGcj6WmF8NoXNA5pQMAg==/109951168536420595.jpg?param=130y130'
-    },
-    {
-      name: '艳阳天',
-      artist: '窦唯',
-      url: 'http://music.163.com/song/media/outer/url?id=ID77417.mp3',
-      cover:
-        'http://p1.music.126.net/vtuYXrzrc1mNIpr6WbynYQ==/109951164050843663.jpg?param=130y130'
+        'http://p1.music.126.net/q_VAT1qkVkbzR2ePW9fJqg==/2531075768207847.jpg?param=130y130'
     },
     {
       name: 'pack my bags',
       artist: 'Sarcastic Sounds / ivri',
-      url: 'http://music.163.com/song/media/outer/url?id=ID531051916.mp3',
+      url: 'https://music.163.com/song/media/outer/url?id=531051916.mp3',
       cover:
         'http://p2.music.126.net/KUkcSrWz6AQIWVz20a3yhw==/109951163116261355.jpg?param=130y130'
     },
     {
-      name: 'Crawling Back to You',
-      artist: 'Daughtry',
-      url: 'http://music.163.com/song/media/outer/url?id=ID4017442.mp3',
+      name: "Whyd You Only Call Me When You're High",
+      artist: 'Arctic Monkeys',
+      url: 'http://music.163.com/song/media/outer/url?id=538898962.mp3',
       cover:
         'http://p1.music.126.net/nGhQ2FlDLTGqhjLb-OBcwg==/895002465065545.jpg?param=130y130'
     },
