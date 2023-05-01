@@ -175,7 +175,7 @@ const BLOG = {
       artist: 'Arctic Monkeys',
       url: 'http://music.163.com/song/media/outer/url?id=538898962.mp3',
       cover:
-        'http://p1.music.126.net/nGhQ2FlDLTGqhjLb-OBcwg==/895002465065545.jpg?param=130y130'
+        'http://p2.music.126.net/_wJVWsTCthgitVp9ZgMvWQ==/109951167829577370.jpg?param=640y300'
     },
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
