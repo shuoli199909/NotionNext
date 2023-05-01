@@ -16,7 +16,6 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Shuo Li', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || 'Msc of Biomedical Engineering\
-  D-ITET\
   ETH Zürich', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://shuoli199909.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
@@ -158,19 +157,47 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      name: 'By Myself',
+      artist: 'Linkin Park',
+      url: 'http://music.163.com/song/media/outer/url?id=ID16686536.mp3',
       cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+        'http://p1.music.126.net/n8TRO4yq18GXKl-90j4NmA==/109951167820940527.jpg?param=130y130'
     },
     {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      name: '魂縈舊夢',
+      artist: '白光',
+      url: 'http://music.163.com/song/media/outer/url?id=ID1807812600.mp3',
       cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    }
+        'http://p2.music.126.net/FxlTMmeeuDsIcKpdugg8OA==/109951165585791099.jpg?param=130y130'
+    },
+    {
+      name: 'Oh No, Oh Yes!',
+      artist: '中森明菜',
+      url: 'http://music.163.com/song/media/outer/url?id=ID22663877.mp3',
+      cover:
+        'http://p2.music.126.net/hKBGcj6WmF8NoXNA5pQMAg==/109951168536420595.jpg?param=130y130'
+    },
+    {
+      name: '艳阳天',
+      artist: '窦唯',
+      url: 'http://music.163.com/song/media/outer/url?id=ID77417.mp3',
+      cover:
+        'http://p1.music.126.net/vtuYXrzrc1mNIpr6WbynYQ==/109951164050843663.jpg?param=130y130'
+    },
+    {
+      name: 'pack my bags',
+      artist: 'Sarcastic Sounds / ivri',
+      url: 'http://music.163.com/song/media/outer/url?id=ID531051916.mp3',
+      cover:
+        'http://p2.music.126.net/KUkcSrWz6AQIWVz20a3yhw==/109951163116261355.jpg?param=130y130'
+    },
+    {
+      name: 'Crawling Back to You',
+      artist: 'Daughtry',
+      url: 'http://music.163.com/song/media/outer/url?id=ID4017442.mp3',
+      cover:
+        'http://p1.music.126.net/nGhQ2FlDLTGqhjLb-OBcwg==/895002465065545.jpg?param=130y130'
+    },
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
   MUSIC_PLAYER_METING_SERVER:
